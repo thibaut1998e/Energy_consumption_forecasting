@@ -1,6 +1,6 @@
 # Energy Consumption Forecasting
 
-This repository contains code and experiments related to forecasting power generation based on wind-related features. The project explores different regression techniques to model the relationship between environmental conditions and power output, and to forecast future power values based on historical data.
+This project was done in the context of an assignement at university of Oslo for the module *Energy informatics*. This repository contains code and experiments related to forecasting power generation based on wind-related features. The project explores different regression techniques to model the relationship between environmental conditions and power output, and to forecast future power values based on historical data.
 
 ## 🌍 Context
 
