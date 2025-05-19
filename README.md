@@ -23,7 +23,10 @@ This project aims to explore data-driven approaches to tackle the challenges of 
 
 ## 🔍 Models Evaluated
 
-To solve the tasks outlined above, several regression models were implemented and tested. These include both classical and more flexible machine learning algorithms. Linear Regression was used as a simple baseline, providing a straightforward interpretation of the relationship between features and power output. k-Nearest Neighbors (kNN) Regression was applied to explore local similarity-based prediction methods, which can capture non-linear relationships by averaging nearby observations.
+To solve the tasks outlined above, several regression models were implemented and tested. These include both classical and more flexible machine learning algorithms
+- **Linear Regression** : simply model a linear relashionship between inputs and outputs. 
+- **k-Nearest Neighbors** (kNN) Regression : a method that first find the k-nearest neighbor of the point we want to predict the output. The target values of these k points are averagre (or weighted-averaged based on their distances to the point) to predict the target value of the point.
+- **Support Vector Regression** (SVR) : 
 
 Support Vector Regression (SVR) was evaluated to examine the performance of a more sophisticated, margin-based regression method that can handle non-linear data through the use of kernels. Finally, a Multilayer Perceptron (MLP), a type of feedforward neural network, was tested to model complex, non-linear interactions between input variables and power generation. Each model's performance was compared across the three tasks to identify the strengths and limitations of different approaches.
 
