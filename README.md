@@ -25,10 +25,11 @@ This project aims to explore data-driven approaches to tackle the challenges of 
 
 To solve the tasks outlined above, several regression models were implemented and tested. These include both classical and more flexible machine learning algorithms
 - **Linear Regression** : simply model a linear relashionship between inputs and outputs. 
-- **k-Nearest Neighbors** (kNN) Regression : a method that first find the k-nearest neighbor of the point we want to predict the output. The target values of these k points are averagre (or weighted-averaged based on their distances to the point) to predict the target value of the point.
-- **Support Vector Regression** (SVR) : 
+- **k-Nearest Neighbors** (kNN) Regression : a method that first find the k-nearest neighbor of the point we want to predict the output. The target values of these k points are averaged (or weighted-averaged based on their distances to the point) to predict the target value of the point.
+- **Support Vector Regression** (SVR) :
+- **Multilayer Perceptron** (MLP) : 
 
-Support Vector Regression (SVR) was evaluated to examine the performance of a more sophisticated, margin-based regression method that can handle non-linear data through the use of kernels. Finally, a Multilayer Perceptron (MLP), a type of feedforward neural network, was tested to model complex, non-linear interactions between input variables and power generation. Each model's performance was compared across the three tasks to identify the strengths and limitations of different approaches.
+Each model's performance was compared across the three tasks to identify the strengths and limitations of different approaches.
 
 You can see bellow an example of the predicted power generation by linear regression and SVR method as well as the true power generation. This is a quite easy task as we only predict one step ahead, that's why we get very good results :
 
