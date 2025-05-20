@@ -18,7 +18,7 @@ This project aims to explore data-driven approaches to tackle the challenges of 
 - **Task 1**: Learn a regression model that maps wind speed to power generation.
 - **Task 2**: Learn a regression model that maps both wind speed and wind direction to power generation.
 - **Task 3**: Forecast the next value of power generation without using wind speed or direction. This is done by mapping a window of N previous time steps to the next one in the series.  
-  - **Limitation**: The current approach only predicts one step ahead. Other techniques could extend this work by either iteratively shifting the input window or directly forecasting multiple future steps in one shot.
+  - **Limitation**: The current approach only predicts one step ahead. Other techniques could extend this work by either iteratively shifting the input window or directly forecasting multiple future steps in one shot, or by using more complex models like Prophet or LSTM.
   
 
 ## 🔍 Models Evaluated
