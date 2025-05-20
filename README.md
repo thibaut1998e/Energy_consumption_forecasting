@@ -27,7 +27,7 @@ To solve the tasks outlined above, several regression models were implemented an
 - **Linear Regression** : simply model a linear relashionship between inputs and outputs. 
 - **k-Nearest Neighbors** (kNN) Regression : a method that first find the k-nearest neighbor of the point we want to predict the output. The target values of these k points are averaged (or weighted-averaged based on their distances to the point) to predict the target value of the point.
 - **Support Vector Regression** (SVR) : this method tries to find a linear model between inputs and outputs, but unlike linear regression, only points outside a tube of predefined width are penalized. 
-- **Multilayer Perceptron** (MLP) : a fully connected neural network with RelU activation function
+- **Multilayer Perceptron** (MLP) : a fully connected neural network with RelU activation functions
 
 Each model's performance was compared across the three tasks to identify the strengths and limitations of different approaches.
 
